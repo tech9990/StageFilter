@@ -1,0 +1,17 @@
+{
+  "name": "studio-filter",
+  "version": "1.0.0",
+  "description": "Next.js Server that filters data based on a json file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node filter-test.js"
+  },
+  "author": "Valerie Armendariz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "escape-string-regexp": "^5.0.0",
+    "express": "^4.17.1"
+  }
+}
