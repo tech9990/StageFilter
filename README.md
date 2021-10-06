@@ -2,13 +2,13 @@
 
 Assignment to filter sound stages based on user requirements
 
-## Available Scripts
+## Back-End Available Scripts
 
-In each project directory, you can run the following
+Under /backend
 
-#### To run Back-End server (`/backend`)
+#### To run Back-End server
 
-`npm install`
+### `npm install`
 
 Installs Pre-Requisites
 
@@ -18,9 +18,15 @@ Runs node server that handles requests from the front-end app in `localhost:3100
 
 Port is configurable by editing `port` in `backend\index.js`  and modifying `api_url` in `/frontend/App.js`_
 
-#### To run Front-End App (`/frontend`)
 
-`npm install`
+
+## Front-End Available Scripts
+
+Under /frontend
+
+#### To run Front-End App
+
+### `npm install`
 
 Installs Pre-Requisites
 
@@ -37,8 +43,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 The app is ready to be deployed!
 
-Optional:
+### Optional
 
-`npx serve build`
+### `npx serve build`
 
 serves app from the build folder
