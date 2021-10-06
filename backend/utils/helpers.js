@@ -10,7 +10,6 @@ const escapeRegExp = (string) => {
 */
 const filterByField = (array, field, value) => {
 	return array.filter(el => {
-		console.log('Sanitized string: ', escapeRegExp(value.toLowerCase().replace(/\s+/m, '')))
 		const matchString = new RegExp('.*?' + escapeRegExp(value.toLowerCase().replace(/\s+/m, '')) + '.*?', 'm');
 		return (el[field].toLowerCase().replace(/\s+/m, '').match(matchString) !== null);
 	})
