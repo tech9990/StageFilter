@@ -24,8 +24,8 @@ const studios = {
 				return false;
 			});
 		}
-		console.log('Filter Parameters: ', filters);
-		console.log('Filtered Results: ');
+		// console.log('Filter Parameters: ', filters);
+		// console.log('Filtered Results: ');
 		console.dir(results, { depth: null });
 		return results;
 	}
