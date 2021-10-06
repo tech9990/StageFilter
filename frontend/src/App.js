@@ -42,6 +42,8 @@ function App() {
 			})
 	}, [filters])
 
+	//events from input changes are passed through,
+	//allowing us to access each element's name and values directly
 	const onFilterChange = (e) => {
 		setFilters(filters => ({
 			...filters,
