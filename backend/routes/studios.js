@@ -26,7 +26,7 @@ const studios = {
 		}
 		// console.log('Filter Parameters: ', filters);
 		// console.log('Filtered Results: ');
-		console.dir(results, { depth: null });
+		//console.dir(results, { depth: null });
 		return results;
 	}
 }
