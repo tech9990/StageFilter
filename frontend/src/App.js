@@ -1,4 +1,6 @@
-// import logo from './logo.svg';
+/**
+ * Main app entry point. All logic and rendering is done here
+ */
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import DatePicker from './components/DatePicker'
@@ -28,6 +30,7 @@ function App() {
 	const setDefaultFilters = () => {
 		setFilters(defaultFilters);
 	}
+	//loads data on first render and requests new data as filters are updated
 	React.useEffect(() => {
 		const params = (new URLSearchParams(filters)).toString();
 		fetch(`${api_url}/studios?${params}`)
