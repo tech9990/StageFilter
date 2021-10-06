@@ -16,9 +16,7 @@ Installs Pre-Requisites
 
 Runs node server that handles requests from the front-end app in `localhost:3100`\
 
-Port is configurable by editing `port` in `backend\index.js`  and modifying `api_url` in `/frontend/App.js`_
-
-
+Port is configurable by editing `port` in `backend\index.js` and modifying `api_url` in `/frontend/App.js`\_
 
 ## Front-End Available Scripts
 
@@ -33,7 +31,7 @@ Installs Pre-Requisites
 ### `npm start`
 
 Runs the app in the development mode.
-Open [Sort App](http://localhost:3000) to view it in the browser.
+Open `http://localhost:3000` to view it in the browser.
 
 ### `npm run build`
 
